@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'exo-Regular';
-    src: url(/Assets/Fonts/Exo/Exo-Regular.otf);
-}
+
 :root {
     --bg-violet-900 :#8022FE;
     --violet-gradient:linear-gradient(90deg,rgba(128, 34, 254, 1) 0%, rgba(152, 16, 250, 1) 100%);
@@ -76,7 +73,8 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Exo-Regular", sans-serif;
+    font-family: "Exo", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 500;
     letter-spacing: 0;
 }
