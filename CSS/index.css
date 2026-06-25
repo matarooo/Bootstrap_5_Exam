@@ -78,14 +78,54 @@ body {
     font-weight: 500;
     letter-spacing: 0;
 }
-/* .container{
-    max-width: 1320px;
-} */
+
 .navbar-collapse {
     flex-grow: inherit;
 }
-.h-20 {
-    height: 5rem;
+.navbar-toggler.collapsed {
+    border:none;
+    padding: 0;
+}
+.navbar-toggler[aria-expanded=false] .fa-x {
+    border:none;
+    padding: 0;
+    display: none;
+}
+.navbar-toggler[aria-expanded=true] .fa-bars {
+    border:none;
+    padding: 0;
+    display: none;
+}
+.navbar-toggler:hover {
+    color: var(--bg-violet-900);
+    transition: all 0.2s ease-in-out;
+}
+.navbar-toggler {
+    border:none;
+    padding: 0;
+
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
+}
+.navbar-toggler-icon {
+    height: 25px;
+    width: 25px;
+    position: relative;
+} 
+.navbar-toggler-icon:hover .hamburger-icon {
+    background-color: var(--bg-violet-900);
+}
+.hamburger-icon {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+}
+.py-40 {
+    padding: 20px 0;
 }
 .fw-600 {
     font-weight: 600;
