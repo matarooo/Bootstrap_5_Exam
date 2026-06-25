@@ -202,21 +202,21 @@ body {
     transition: all 0.2s ease-in-out;
 }
 .img-card {
-    background-image: url(/Assets/Elite\ Homes\ Images/new-york.jpeg);
+    background-image: url(/Assets/Elite-Homes-Images/new-york.jpeg);
     background-size: cover;
     background-position: 50%;
     border-radius: 12px;
     overflow: hidden;
 }
 .img-card-2 {
-    background-image: url(/Assets/Elite\ Homes\ Images/los-angeles.jpeg);
+    background-image: url(/Assets/Elite-Homes-Images/los-angeles.jpeg);
     background-size: cover;
     background-position: 50%;
     border-radius: 12px;
     overflow: hidden;
 }
 .img-card-3 {
-    background-image: url(/Assets/Elite\ Homes\ Images/miami.jpeg);
+    background-image: url(/Assets/Elite-Homes-Images/miami.jpeg);
     background-size: cover;
     background-position: 50%;
     border-radius: 12px;
@@ -341,7 +341,7 @@ body {
 /* ============================= Hero Section Styles Start ============================= */
 #hero-section {
     min-height: 100vh;
-    background: linear-gradient(to right, #4d179acc, #59168bcc), url(https://github.com/matarooo/Bootstrap_5_Exam/blob/0769158aea9de434f3b829729bb1656945de509c/Assets/Elite%20Homes%20Images/hero-bg-img.png);
+    background: linear-gradient(to right, #4d179acc, #59168bcc), url(../Assets/Elite-Homes-Images/hero-bg-img.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
