@@ -202,21 +202,21 @@ body {
     transition: all 0.2s ease-in-out;
 }
 .img-card {
-    background-image: url(/Assets/Elite-Homes-Images/new-york.jpeg);
+    background-image: url(../Assets/Elite-Homes-Images/new-york.jpeg);
     background-size: cover;
     background-position: 50%;
     border-radius: 12px;
     overflow: hidden;
 }
 .img-card-2 {
-    background-image: url(/Assets/Elite-Homes-Images/los-angeles.jpeg);
+    background-image: url(../Assets/Elite-Homes-Images/los-angeles.jpeg);
     background-size: cover;
     background-position: 50%;
     border-radius: 12px;
     overflow: hidden;
 }
 .img-card-3 {
-    background-image: url(/Assets/Elite-Homes-Images/miami.jpeg);
+    background-image: url(../Assets/Elite-Homes-Images/miami.jpeg);
     background-size: cover;
     background-position: 50%;
     border-radius: 12px;
