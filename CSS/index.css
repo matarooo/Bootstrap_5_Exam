@@ -175,6 +175,15 @@ body {
 .dropdown-menu {
     transform: translate(-70%, 15px);
 }
+@media screen and (max-width:992px) {
+    .w-1200 {
+        width: 520px;
+        margin: auto;
+    }
+    .dropdown-menu {
+    transform: translate(0, 0px);
+}
+}
 .dropdown-toggle::after {
     display: none;
 }
