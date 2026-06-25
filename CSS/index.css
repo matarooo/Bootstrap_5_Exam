@@ -684,30 +684,40 @@ body {
     border-bottom: 1px solid #ebe6e7;
 }
 .bullet-icon-violet {
+    width: 44px;
+    height: 40px;
     padding: 12px;
     margin-right: 16px;
     background-color: #ede9fe;
     color: #8E3CFE;
 }
 .bullet-icon-purple {
+    width: 44px;
+    height: 40px;
     padding: 12px;
     margin-right: 16px;
     background-color: #f3e8ff;
     color: #9810fa;
 }
 .bullet-icon-green {
+    width: 44px;
+    height: 40px;
     padding: 12px;
     margin-right: 16px;
     background-color: #dcfce7;
     color: #00a63e;
 }
 .bullet-icon-yellow {
+    width: 44px;
+    height: 40px;
     padding: 12px;
     margin-right: 16px;
     background-color: #fef9c2;
     color: #d08700;
 }
 .bullet-icon-indigo {
+    width: 44px;
+    height: 40px;
     padding: 12px;
     margin-right: 16px;
     background-color: #e0e7ff;
